@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mega.recyclerviewdemo.MainActivity">
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="100"
+        android:title="add"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="100"
+        android:title="delete"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_ListView"
+        android:orderInCategory="100"
+        android:title="listView"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_griView"
+        android:orderInCategory="100"
+        android:title="griView"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_hor_griView"
+        android:orderInCategory="100"
+        android:title="horGriVeiw"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_staggered"
+        android:orderInCategory="100"
+        android:title="staggeredGriVew"
+        app:showAsAction="never" />
+</menu>

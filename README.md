@@ -1,1 +1,2 @@
-# ViewPager的应用：轮播图，引导页
+
+# RecyclerView的应用，各种layoutMannger
